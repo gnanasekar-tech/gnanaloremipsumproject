@@ -1,0 +1,137 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-right: 10px;
+}
+
+.nav-links li:last-child {
+    margin-right: 0;
+}
+
+.nav-links a {
+    color: black;
+    text-decoration: none;
+    font-size: 8px;
+}
+
+@media (min-width: 566px) {
+    .nav-links a {
+        color: black;
+        text-decoration: none;
+        font-size: 20px;
+    }
+}
+
+.icon1 {
+    float: right;
+    color: black;
+    padding-left: 50px;
+}
+
+.icon2 {
+    float: right;
+    color: black;
+    padding-left: 5px;
+}
+
+.banner-section-bg-container {
+    background-image: url("https://res.cloudinary.com/djqiuepwi/image/upload/v1683134341/img1_smf2yp.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+
+}
+
+.con {
+    background-color: #FB607F;
+    height: 360px;
+    width: 230px;
+    margin-left: 70px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    opacity: 0.7;
+}
+
+.main-head {
+    margin-top: 18px;
+    color: white;
+    font-family: "Roboto";
+    font-size: 41px;
+    font-weight: bold;
+}
+
+.des {
+    color: white;
+    font-family: "playfair display ";
+    font-size: 17px;
+    font-weight: bold;
+
+}
+
+.bg-container {
+    background-image: linear-gradient(to right, #FF80ED, #EEA990, #ffff00);
+    text-align: center;
+    width: 100vw;
+}
+
+.second-container-heading {
+    color: white;
+    text-align: center;
+    font-size: 37px;
+    font-family: "Roboto";
+    padding-top: 20px;
+
+}
+
+.card {
+    background-color: white;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-color: #e5eaf4;
+}
+
+.image {
+    height: 130px;
+    width: 150px;
+    padding-top: 10px;
+    border-top-right-radius: 30px;
+}
+
+.card-title {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 22px;
+    color: #323f4b;
+}
+
+.card-description {
+    font-family: "Roboto";
+    font-size: 10px;
+}
+
+.button {
+    font-family: "Roboto";
+    background-color: #ff8080;
+    border-radius: 20px;
+    border-width: 0px;
+    padding: 10px;
+    width: 120px;
+    margin-top: 20px;
+}
